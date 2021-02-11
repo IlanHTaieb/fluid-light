@@ -14,8 +14,7 @@ export class Line {
       return this.element
   }
   
-  configure()
-  {
+  configure() {
     this.element.id = 'line' + this.index
     this.element.className = 'line'
   }

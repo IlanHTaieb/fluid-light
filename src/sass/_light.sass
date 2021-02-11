@@ -1,0 +1,20 @@
+.lightBox
+  width: 40px
+  height: 40px
+  display: flex
+  justify-content: center
+  align-items: center
+  
+  .lightElement
+    width: 10px
+    height: 10px
+    border-radius: 50%
+    background: $primary-color
+    transition: background 3s, width 1s, height 1s
+    
+    &.active
+      width: 20px
+      height: 20px
+      background: $active-color
+      transition: none
+      
