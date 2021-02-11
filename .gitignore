@@ -1,8 +1,8 @@
-// Useless
+/* Useless */
 .idea
 
-// Hello black hole
+/* Hello black hole */
 node_modules
 
-// Use 'npm run dev'
+/* Use 'npm run dev' */
 public
